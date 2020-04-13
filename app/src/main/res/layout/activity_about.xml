@@ -4,42 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E1B1B"
-    tools:context=".MainActivity" >
+    tools:context=".About"
+    android:background="#1E1B1B">
 
-    <Button
-        android:id="@+id/exit_button"
-        android:layout_width="288dp"
-        android:layout_height="43dp"
-        android:background="@drawable/rounded_button_yellow"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:onClick="button_exit_onClick"
-        android:text="Вийти"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:text="@string/version"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
+        app:layout_constraintVertical_bias="0.669" />
 
-    <Button
-        android:id="@+id/about_button"
-        android:layout_width="288dp"
-        android:layout_height="43dp"
-        android:background="@drawable/rounded_button_yellow"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:onClick="button_about_onClick"
-        android:text="Про додаток"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:text="@string/release_date"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.856" />
+        app:layout_constraintVertical_bias="0.513" />
 
     <TextView
         android:id="@+id/textView"
@@ -57,34 +53,52 @@
         app:layout_constraintVertical_bias="0.059" />
 
     <Button
-        android:id="@+id/start_button"
+        android:id="@+id/contact_button"
         android:layout_width="288dp"
-        android:layout_height="52dp"
-        android:background="@drawable/rounded_buttton"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_button_gray"
         android:gravity="center"
-        android:text="Почати"
+        android:text="Зв'язатися"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.715" />
+        app:layout_constraintVertical_bias="0.835" />
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="288dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_button_yellow"
+        android:gravity="center"
+        android:onClick="menu_button_onCLick"
+        android:text="Меню"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="384dp"
-        android:layout_height="233dp"
-        android:background="#71353030"
+        android:id="@+id/developer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:text='"Математику вже за те любити варто, що вона розум до ладу приводить."\nМ.В.Ломоносов'
+        android:text="@string/developer"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+        app:layout_constraintVertical_bias="0.325" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
