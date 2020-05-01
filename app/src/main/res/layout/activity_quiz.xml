@@ -74,13 +74,13 @@
         android:layout_height="200dp"
         android:layout_marginBottom="20dp">
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/question"
         android:layout_width="310dp"
         android:layout_height="200dp"
         android:padding="16dp"
         android:background="#71353030"
         android:gravity="center"
-        android:text='"Математику вже за те любити варто, що вона розум до ладу приводить."\nМ.В.Ломоносов'
+        android:text=''
         android:textColor="#FFFFFF"
         android:textSize="23sp"
         android:layout_marginBottom="20dp"
@@ -95,49 +95,50 @@
         android:layout_marginBottom="20dp"/>
 
     <Button
+        android:id="@+id/answer1"
         android:layout_width="310dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
         android:background="@drawable/rounded_button_yellow"
         android:gravity="center"
         android:text=""
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="7dp"
-        />
-    <Button
-        android:layout_width="310dp"
-        android:layout_height="40dp"
-        android:background="@drawable/rounded_button_yellow"
-        android:gravity="center"
-        android:text=""
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="7dp"
-        />
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/answer2"
         android:layout_width="310dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/rounded_button_yellow"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
         android:background="@drawable/rounded_button_yellow"
         android:gravity="center"
         android:onClick="button_about_onClick"
         android:text=""
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="7dp"
-        />
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/answer4"
         android:layout_width="310dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="75dp"
         android:background="@drawable/rounded_button_yellow"
         android:gravity="center"
         android:onClick="button_exit_onClick"
         android:text=""
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="75dp"
-        />
+        android:textStyle="bold" />
 
 
 </LinearLayout>

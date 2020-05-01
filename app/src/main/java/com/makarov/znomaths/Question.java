@@ -1,11 +1,10 @@
 package com.makarov.znomaths;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Question {
     private String question, rightAnswer;
-    private List<String> wrongAnswers = new ArrayList<>(3);
+    private List<String> wrongAnswers;
 
     public String get_question() {
         return question;
