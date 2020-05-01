@@ -33,13 +33,13 @@
             android:id="@+id/start_button"
             android:layout_width="288dp"
             android:layout_height="52dp"
+            android:layout_marginBottom="33dp"
             android:background="@drawable/rounded_buttton"
             android:gravity="center"
+            android:onClick="button_start_onClick"
             android:text="Почати"
             android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="33dp"
-            />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/about_button"
@@ -51,7 +51,7 @@
             android:text="Про додаток"
             android:textSize="25sp"
             android:textStyle="bold"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="7dp"
             />
 
         <Button
