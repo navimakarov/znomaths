@@ -72,7 +72,7 @@
     <ScrollView
         android:layout_width="310dp"
         android:layout_height="200dp"
-        android:layout_marginBottom="40dp">
+        android:layout_marginBottom="20dp">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="310dp"
@@ -83,9 +83,16 @@
         android:text='"Математику вже за те любити варто, що вона розум до ладу приводить."\nМ.В.Ломоносов'
         android:textColor="#FFFFFF"
         android:textSize="23sp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         />
     </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
 
     <Button
         android:layout_width="310dp"
