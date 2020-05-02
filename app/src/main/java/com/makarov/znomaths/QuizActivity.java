@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import android.animation.ObjectAnimator;
-import android.media.Image;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
@@ -95,15 +98,12 @@ public class QuizActivity extends AppCompatActivity {
                 }
             }
             start_animation(delay);
-            new java.util.Timer().schedule(
-                    new java.util.TimerTask() {
-                        @Override
-                        public void run() {
-                            update_game();
-                        }
-                    },
-                    delay + 300
-            );
+            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    update_game();
+                }
+            }, delay + 300);
         }
     }
 
@@ -129,15 +129,16 @@ public class QuizActivity extends AppCompatActivity {
 
             String question = game.get_question();
             rightAnswer = game.get_answer();
+            List <String> all_answers = game.get_answers();
 
-            List <String> all_answers = game.get_wrong_answers();
-            all_answers.add(rightAnswer);
+            List<Integer> indexes = Arrays.asList(0, 1, 2, 3);
+            Collections.shuffle(indexes);
 
             question_field.setText(question);
-            answer1.setText(all_answers.get(0));
-            answer2.setText(all_answers.get(1));
-            answer3.setText(all_answers.get(2));
-            answer4.setText(all_answers.get(3));
+            answer1.setText(all_answers.get(indexes.get(0)));
+            answer2.setText(all_answers.get(indexes.get(1)));
+            answer3.setText(all_answers.get(indexes.get(2)));
+            answer4.setText(all_answers.get(indexes.get(3)));
 
         }
     }

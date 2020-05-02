@@ -1,5 +1,6 @@
 package com.makarov.znomaths;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Game {
@@ -22,8 +23,11 @@ public class Game {
         return questions.get(index).get_question();
     }
 
-    public List<String> get_wrong_answers() {
-        return questions.get(index).get_wrongAnswers();
+    public List<String> get_answers() {
+        List<String> answers = new ArrayList<String>(4);
+        answers = questions.get(index).get_wrongAnswers();
+        answers.add(questions.get(index).get_rightAnswer());
+        return answers;
     }
 
     public String get_answer() {
