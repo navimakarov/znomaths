@@ -24,20 +24,501 @@
     },
 
     {
-      "question": "Розв'яжіть нерівність \n|x| < 0",
+      "question": "Розв'яжіть нерівність |x| < 0",
       "rightAnswer": "Немає розв'язків",
       "wrongAnswers": ["x = 0", "x < 0", "x > 0"]
     },
 
     {
-      "question": "Вкажіть кількість розв'язків sin(x) = √2",
+      "question": "Укажіть кількість розв'язків sin(x) = √2",
       "rightAnswer": "Немає розв'язків",
       "wrongAnswers": ["Безліч", "1", "0"]
     },
 
     {
-      "question": "Вкажіть кількість цілих розв'язків |x| > -0.75",
+      "question": "Укажіть кількість цілих розв'язків |x| > -0.75",
       "rightAnswer": "Безліч",
       "wrongAnswers": ["Немає розв'язків", "1", "0"]
-    }
+    },
+
+  {
+    "question": "Розв'яжіть рівняння (x+1)(2x-3) = 0",
+    "rightAnswer": "-1; 1.5",
+    "wrongAnswers": ["-3; 1", "-1.5; 1", "-1; 2/3"]
+  },
+
+  {
+    "question": "Якщо ціна пакету(p) пов'язана із ціною деревини для його виробництва(d) співвідношенням p = 5d + 8, то d = ",
+    "rightAnswer": "1/5 * (p - 8)",
+    "wrongAnswers": ["5p - 40", "5p + 40", "p - 8"]
+  },
+  {
+    "question": "Укажіть формулу для обчислення об'єму V конуса, площа основи якого дорівнює S, а висота - h.",
+    "rightAnswer": "V = (Sh) / 3",
+    "wrongAnswers": ["V = Sh", "V = 4Sh", "V = (Sh) / 2"]
+  },
+  {
+    "question": "Яке з наведених чисел є розв'язком нерівності |x| > 3",
+    "rightAnswer": "-9",
+    "wrongAnswers": ["-3", "0", "1"]
+  },
+  {
+    "question": "Яку з наведених властивостей має функція y = √x",
+    "rightAnswer": "Набуває лише невід'ємних значень",
+    "wrongAnswers": ["Спадає на всій області визначення", "Парна", "Має дві точки екстремуму"]
+  },
+  {
+    "question": "Якому з наведених проміжків належить число log2(1/3)",
+    "rightAnswer": "(-3; -1)",
+    "wrongAnswers": ["[1;3)", "(-1; 0)", "[0; 1)"]
+  },
+
+  {
+    "question": "Розв'яжіть систему рівнянь\n2y = 5x\nx + y = 14\nДля одержаного розв'язку(x, y) укажіть добуток x * y",
+    "rightAnswer": "40",
+    "wrongAnswers": ["20", "10", "5"]
+  },
+
+  {
+    "question": "Сторона основи правильної чотирикутної піраміди дорівнює 6 см, усі її бічні грані нахилені до площини основи під кутом 60°. Визначте площу бічної поверхні цієї піраміди.",
+    "rightAnswer": "72 см2",
+    "wrongAnswers": ["144 см2", "24√3 см2", "72√3 см2"]
+  },
+
+  {
+    "question": "Графік функції y = 1",
+    "rightAnswer": "не має спільних точок з віссю x",
+    "wrongAnswers": ["проходить через точку (1;3)", "не перетинає вісь y", "має безліч спільних точок з віссю x"]
+  },
+  {
+    "question": "Графік функції y = cos(x)",
+    "rightAnswer": "має безліч спільних точок з віссю x",
+    "wrongAnswers": ["проходить через точку (1;3)", "не перетинає вісь y", "не має спільних точок з віссю x"]
+  },
+
+  {
+    "question": "Графік функції y = 4 - x^2",
+    "rightAnswer": "проходить через точку (1;3)",
+    "wrongAnswers": ["має безліч спільних точок з віссю x", "не перетинає вісь y", "не має спільних точок з віссю x"]
+  },
+
+  {
+    "question": "Графік функції y = log3(x)",
+    "rightAnswer": "не перетинає вісь y",
+    "wrongAnswers": ["проходить через точку (1;3)", "має безліч спільних точок з віссю x", "не має спільних точок з віссю x"]
+  },
+
+  {
+    "question": "Дріб 14/5",
+    "rightAnswer": "Є сумою чисел 2 і 0.8",
+    "wrongAnswers": ["Є парвильним", "Чисельно дорівнює 1.6", "належить проміжку (1; 1.5)"]
+  },
+
+  {
+    "question": "Дріб 3/5",
+    "rightAnswer": "Є парвильним",
+    "wrongAnswers": ["Є скоротним", "Чисельно дорівнює 1.6", "Є сумою чисел 0.6 і 1"]
+  },
+
+  {
+    "question": "Дріб 16/256",
+    "rightAnswer": "Є скоротним",
+    "wrongAnswers": ["Належить проміжку (1; 3)", "Чисельно дорівнює 1.6", "Є сумою чисел 1.8 і 3"]
+  },
+
+  {
+    "question": "За якого від'ємного значення виразів x^2 - 4; 3 - 5x; 2 - 3x будуть послідовними членами арифметичної прогресії?",
+    "rightAnswer": "-8",
+    "wrongAnswers": ["0", "1", "-9"]
+  },
+  {
+    "question": "У фінал пісенного конкурсу вийшло 4 солісти та 3 гурти. Порядковий номер виступу фіналістів визначають жеребкуванням. Скільки всього є варіантів послідовностей виступів фіналістів, якщо спочатку виступатимуть групи, а після них - солісти?",
+    "rightAnswer": "144",
+    "wrongAnswers": ["12", "72", "36"]
+  },
+  {
+    "question": "Спростіть вираз 2a - (3b - 2a)",
+    "rightAnswer": "4a - 3b",
+    "wrongAnswers": ["-3b", "-6ab - 4a", "-6ab + 4a"]
+  },
+  {
+    "question": "Укажіть число, що є розв'язком нерівності x^2 < 9",
+    "rightAnswer": "-2",
+    "wrongAnswers": ["3", "-8", "8"]
+  },
+  {
+    "question": "Укажіть число, що є розв'язком нерівності x^3 < 64",
+    "rightAnswer": "3",
+    "wrongAnswers": ["4", "-3", "-6"]
+  },
+  {
+    "question": "Укажіть число, що є розв'язком рівняння √x = 5",
+    "rightAnswer": "25",
+    "wrongAnswers": ["-25", "5", "36"]
+  },
+  {
+    "question": "Укажіть число, що є розв'язком рівняння √x + 2 = 8",
+    "rightAnswer": "36",
+    "wrongAnswers": ["64", "8", "25"]
+  },
+  {
+    "question": "Укажіть число яке НЕ є розв'язком нерівності x^2 < 81",
+    "rightAnswer": "-9",
+    "wrongAnswers": ["7", "-1", "0"]
+  },
+  {
+    "question": "Укажіть дріб, який належить проміжку [-1; 1.5)",
+    "rightAnswer": "23/28",
+    "wrongAnswers": ["43/21", "3/2", "-5/4"]
+  },
+  {
+    "question": "У супермаркеті проходить акція: купуєш три однакові шоколадки й таку саму четверту супермаркет надає безкоштовно. Ціна кожної шоколадки - 35 грн. Покупець має у своєму розпорядженні 220 грн. Яку МАКСИМАЛЬНУ кількість шоколадок він зможе отримати, узявши участь в акціії?",
+    "rightAnswer": "8",
+    "wrongAnswers": ["6", "7", "9"]
+  },
+  {
+    "question": "Укажіть формулу для обчислення висоти H циліндра, площа основи якого дорівнює S, а об'єм - V",
+    "rightAnswer": "H = V / S",
+    "wrongAnswers": ["H = S / V", "H = VS", "H = (3 * V) / S"]
+  },
+  {
+    "question": "Спростіть вираз x + 3y - (x - 3y)",
+    "rightAnswer": "6y",
+    "wrongAnswers": ["2x", "0", "2(x - 3y)"]
+  },
+  {
+    "question": "Спростіть вираз 25x + 48 - (5y + 1)",
+    "rightAnswer": "5(5x - y) + 47",
+    "wrongAnswers": ["20x - 47", "25 - 5y + 47", "-5y - 25x + 47"]
+  },
+  {
+    "question": "Графік функції f(x) паралельно перенесли вздовж осі x на 2 одиниці праворуч. Графік якої функції отримали?",
+    "rightAnswer": "y = f(x - 2)",
+    "wrongAnswers": ["y = f(x) + 2", "y = f(x) - 2", "y = 2f(x)"]
+  },
+  {
+    "question": "Графік функції f(x) паралельно перенесли вздовж осі x на 2 одиниці ліворуч. Графік якої функції отримали?",
+    "rightAnswer": "y = f(x + 2)",
+    "wrongAnswers": ["y = f(x - 2)", "y = 2f(x)", "y = f(x) - 2"]
+  },
+  {
+    "question": "Спростіть вираз 2sin^2(x) * ctg(x)",
+    "rightAnswer": "sin(2x)",
+    "wrongAnswers": ["2sin(2x)", "cos(2x)", "2cos(2x)"]
+  },
+  {
+    "question": "Правильна формула розкладу sin2x на множники",
+    "rightAnswer": "2 * sin(x) * cos(x)",
+    "wrongAnswers": ["sin(x) - 1", "2cos(x) - 1", "sin(x) + 1"]
+  },
+  {
+    "question": "Яке з наведених тверджень є правильним",
+    "rightAnswer": "У будь який трикутник можна вписати коло",
+    "wrongAnswers": ["У будь який прямокутник можна вписати коло", "Чотирикутник у якого всі кути рівні - квадрат", "У будь який паралелограм можна вписати коло"]
+  },
+  {
+    "question": "Яке з наведених чисел є коренем рівняння 2|x| = 2",
+    "rightAnswer": "-1",
+    "wrongAnswers": ["0", "4", "-2"]
+  },
+  {
+    "question": "Обчисліть значення виразу 3(a - 1), якщо a = 0.7",
+    "rightAnswer": "-0.9",
+    "wrongAnswers": ["1.1", "5.5", "3.2"]
+  },
+  {
+    "question": "Обчисліть значення виразу 4(5a - 3), якщо a = 0.7",
+    "rightAnswer": "2",
+    "wrongAnswers": ["-0.5", "3.1", "3"]
+  },
+  {
+    "question": "Обчисліть значення виразу x ^ 3, якщо x = 0.3",
+    "rightAnswer": "0.027",
+    "wrongAnswers": ["0.27", "2.7", "0.9"]
+  },
+  {
+    "question": "Обчисліть значення виразу ∛b, якщо b = 0.343",
+    "rightAnswer": "0.7",
+    "wrongAnswers": ["0.3", "0.34", "0.65"]
+  },
+  {
+    "question": "Розв'яжіть рівняння 3^(7x) = 9. Отриманий корінь рівняння округліть до десятих",
+    "rightAnswer": "0.3",
+    "wrongAnswers": ["0.2", "0.29", "0.23"]
+  },
+  {
+    "question": "Один кілограм яблук коштує на базарі від 9 грн до 12 грн, а один кілограм груш від 19 грн до 25 грн. Оксана заплатила за куплені на базарі 2 кг яблук та 3 кг груш m гривень. Укажіть нерівність, що виконуватиметься для m",
+    "rightAnswer": "75 < m < 99",
+    "wrongAnswers": ["28 < m < 37", "42 < m < 66", "75 < m < 81"]
+  },
+  {
+    "question": "Радіус основи конуса дорівнює 4, його висота - h, а твірна - l. Укажіть серед наведених правильне співвідношення для h і l",
+    "rightAnswer": "16 + h^2 = l^2",
+    "wrongAnswers": ["4 + h = l", "4 + l = h", "h^2 - l^2 = 16"]
+  },
+  {
+    "question": "На колі з центром O вибрано точки A і B. Визначте градусну міру кута AOB, якщо довжина дуги AB становить 1/6 довжини цього кола",
+    "rightAnswer": "60°",
+    "wrongAnswers": ["120°", "45°", "30°"]
+  },
+  {
+    "question": "Спростіть вираз (a^24) / ((a^4)^2)",
+    "rightAnswer": "a^16",
+    "wrongAnswers": ["a^3", "a^8", "a^4"]
+  },
+  {
+    "question": "Площа основи правильної чотирикутної піраміди дорівнює 36 см2. Визначте об'єм цієїї піраміди, якщо її висота вдвічі більша за сторону основи",
+    "rightAnswer": "144 см2",
+    "wrongAnswers": ["216 см2", "108 см2", "288 см2"]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  },
+  {
+    "question": "",
+    "rightAnswer": "",
+    "wrongAnswers": ["", "", ""]
+  }
 ]
