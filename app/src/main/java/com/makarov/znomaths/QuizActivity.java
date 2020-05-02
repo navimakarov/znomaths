@@ -116,7 +116,7 @@ public class QuizActivity extends AppCompatActivity {
 
     public void update_game() {
         if(game.game_over()){
-            finishAffinity();
+            finish();
         }
         else {
             questionAnswered = false;
