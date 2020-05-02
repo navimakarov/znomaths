@@ -8,10 +8,6 @@ public class Player {
         rightAnswersCount = 0;
     }
 
-    public void increase_triesCount() {
-        triesCount++;
-    }
-
     public void decrease_triesCount() {
         triesCount--;
     }

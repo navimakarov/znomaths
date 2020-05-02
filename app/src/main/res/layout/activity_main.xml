@@ -34,7 +34,7 @@
             android:layout_width="288dp"
             android:layout_height="52dp"
             android:layout_marginBottom="33dp"
-            android:background="@drawable/rounded_buttton"
+            android:background="@drawable/rounded_button_green"
             android:gravity="center"
             android:onClick="button_start_onClick"
             android:text="Почати"

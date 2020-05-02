@@ -6,9 +6,9 @@ public class Game {
     private List<Question> questions;
     private Player player;
     private int index;
-    public Game(List<Question> questions) {
+    public Game(List<Question> questions, Player player) {
         this.questions = questions;
-        player = new Player();
+        this.player = player;
     }
 
     public boolean game_over(){

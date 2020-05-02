@@ -18,12 +18,4 @@ public class Question {
         return wrongAnswers;
     }
 
-    @Override
-    public String toString() {
-        return "Question{" +
-                "questions='" + question + '\'' +
-                ", rightAnswer=" + rightAnswer +
-                ", wrongAnswers=" + wrongAnswers +
-                '}';
-    }
 }
