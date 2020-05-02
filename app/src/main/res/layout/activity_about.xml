@@ -58,6 +58,7 @@
         android:layout_height="43dp"
         android:background="@drawable/rounded_button_gray"
         android:gravity="center"
+        android:onClick="contact_button_onClick"
         android:text="Зв'язатися"
         android:textSize="25sp"
         android:textStyle="bold"
