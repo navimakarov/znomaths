@@ -272,253 +272,253 @@
     "wrongAnswers": ["216 см2", "108 см2", "288 см2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "У трикутнику ABC кут B - тупий. Яке з наведених тверджень є правильним?",
+    "rightAnswer": "<A + <C < 90°",
+    "wrongAnswers": ["<A + <B + < C > 180°", "AB + BC < AC", "AB + AC < BC"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нулі функції f(x) = 2x^2 - 5x -3",
+    "rightAnswer": "3; -0.5",
+    "wrongAnswers": ["-3", "-3; 0", "-1; 6"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якому проміжку належить значення виразу sin(7pi/6) - 1",
+    "rightAnswer": "[-2; -1)",
+    "wrongAnswers": ["[-1; 0.5]", "(0.5; 1)", "[1; 2]"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якому проміжку належить значення виразу sin(3pi/6)",
+    "rightAnswer": "[1;3]",
+    "wrongAnswers": ["(-1; 0]", "(0; 0.5)", "[0.5; 1)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якому проміжку належить значення виразу cos(3pi/6)",
+    "rightAnswer": "[0; 0.5)",
+    "wrongAnswers": ["[-1; 0)", "[0.5; 1]", "[1;3]"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки спільних точок з віссю x має графік функції y = cos(x)",
+    "rightAnswer": "Безліч",
+    "wrongAnswers": ["Жодної", "1", "2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки спільних точок з віссю x має графік функції y = sin(x)",
+    "rightAnswer": "Безліч",
+    "wrongAnswers": ["Жодної", "1", "2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Яка з поданих функцій є парною",
+    "rightAnswer": "y = cos(x)",
+    "wrongAnswers": ["y = sin(x)", "y = x", "y = 3x"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки точок перетину у функцій y = cos(x) і y = sin(x)",
+    "rightAnswer": "Безліч",
+    "wrongAnswers": ["2", "Жодної", "1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Визначте значення виразу tg(x) * ctg(x), при x = √3",
+    "rightAnswer": "1",
+    "wrongAnswers": ["0", "√3", "√3/2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Яке з поданих чисел ділиться націло на 18",
+    "rightAnswer": "378",
+    "wrongAnswers": ["256", "132", "369"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть проміжок, якому належить корінь рівняння (3x-2)/(x+1) = 7",
+    "rightAnswer": "[-3; -2)",
+    "wrongAnswers": ["(-2; 0]", "(0; 3]", "(3; 6]"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Розв'яжіть нерівність\nx^2 < 9",
+    "rightAnswer": "(-3; 3)",
+    "wrongAnswers": ["[-3; 3]", "(-2; 2)", "[-2; 2]"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки точок перетину з осями координат графіка функції y = x^3 - 1",
+    "rightAnswer": "2",
+    "wrongAnswers": ["1", "Жодної", "Безліч"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки точок перетину з осями координат графіка функції y = ctg(x)",
+    "rightAnswer": "Безліч",
+    "wrongAnswers": ["2", "1", "Жодної"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки точок перетину з осями координат графіка функції y = x",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "Жодної", "Безліч"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Четвертий член геометричної прогресії у 8 разів більший за перший член. Сума третього й четвертого членів цієї прогресії на 14 менша за їхній добуток. Визначте перший член прогресії, якщо всі її члени є додатними числами",
+    "rightAnswer": "0.875",
+    "wrongAnswers": ["1.3", "3.21", "21.5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "За течією річки моторний човен проходить 32 км за 1 годину 20 хвилин, а проти течії 48 км за 3 години. Визначте власну швидкість човна у км/год. Уважайте, що вона є сталою протягом усього руху.",
+    "rightAnswer": "20",
+    "wrongAnswers": ["36", "12", "10"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Спростіть вираз -5x + 7y - (3x -  7y)",
+    "rightAnswer": "-2(4x + 7y)",
+    "wrongAnswers": ["-8x", "14y", "-5x"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "У магазині в продажу є 6 видів тарілок, 8 видів блюдець та 12 видів чашок. Олена збирається купити бабусі в подарунок у цьому магазинні або чашку та блюдце, або лише тарілку. Скільки всього є способів в Олени купити бабусі такий подарунок?",
+    "rightAnswer": "102",
+    "wrongAnswers": ["64", "96", "48"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть ненульове значення x, за якого значення виразів x - 8, 3x та 6x є посліжовними членами геометричної прогресії",
+    "rightAnswer": "-16",
+    "wrongAnswers": ["10", "4", "0"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якому проміжку належить значення виразу (-1 + √27)/2",
+    "rightAnswer": "[2; 3)",
+    "wrongAnswers": ["[-1; 0]", "(0; 2)", "[3; 6)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Функція y = x ^ 2",
+    "rightAnswer": "Парна",
+    "wrongAnswers": ["Непарна", "Спадає на всій області визначення", "Зростає на всій області визначення"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Функція y = x ^ 3 + 1",
+    "rightAnswer": "Зростає на всій області визначення",
+    "wrongAnswers": ["Непарна", "Спадає на всій області визначення", "Парна"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Функція y = 3 - x",
+    "rightAnswer": "Спадає на всій області визначення",
+    "wrongAnswers": ["Непарна", "Зростає на всій області визначення", "Парна"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Функція y = sin(x)",
+    "rightAnswer": "Непарна",
+    "wrongAnswers": ["Спадає на всій області визначення", "Зростає на всій області визначення", "Парна"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "a ^ -1 дорівнює",
+    "rightAnswer": "1/a",
+    "wrongAnswers": ["1/a^2", "5a", "3a"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "(2a + 2) / 2 =",
+    "rightAnswer": "a + 1",
+    "wrongAnswers": ["a + 2", "a", "2a"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "У буфеті друзі купили кілька однакових тістечок вартістю 10 грн кожне і 5 однакових булочок вартістю x грн кожна. Яке з чисел може виражати загальу вартість покупки, якщо x - ціле число",
+    "rightAnswer": "35",
+    "wrongAnswers": ["31", "23", "41"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "1 - sin(x)*ctg(x)*cos(x) = ",
+    "rightAnswer": "sin(x)^2",
+    "wrongAnswers": ["cos(x)^2", "0", "1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Розв'яжіть систему рівнянь \nxy = -12\nx(2y - 1) = -18\nУ відповідь запишіть x",
+    "rightAnswer": "-6",
+    "wrongAnswers": ["-16", "-9", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укаіжть період функції y = sin(x)",
+    "rightAnswer": "2pi",
+    "wrongAnswers": ["pi", "pi/2", "pi/3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укаіжть період функції y = cos(x)",
+    "rightAnswer": "2pi",
+    "wrongAnswers": ["pi", "pi/2", "pi/3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укаіжть період функції y = tg(x)",
+    "rightAnswer": "pi",
+    "wrongAnswers": ["2pi", "pi/2", "pi/3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укаіжть період функції y = ctg(x)",
+    "rightAnswer": "pi",
+    "wrongAnswers": ["2pi", "pi/2", "pi/3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть похідну функції y = cos(pi/2)",
+    "rightAnswer": "0",
+    "wrongAnswers": ["-sin(pi/2)", "sin(pi/2)", "2sin(pi/2)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть похідну функції y = e^3",
+    "rightAnswer": "0",
+    "wrongAnswers": ["3e", "e^3", "3e^3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Значення виразу a^0, при a = -1.6",
+    "rightAnswer": "дорівнює 1",
+    "wrongAnswers": ["більше за 1", "менше за -1", "дорівнює 0"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знаменник геометричної прогресії дорівнює 2/3, а сума чотирьох перших її членів дорівнює 65. Знайдіть перший член цієї прогресії.",
+    "rightAnswer": "27",
+    "wrongAnswers": ["8", "9", "17"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "В Оленки є 8 різних фотографій з її зображеннями та 6 різних фотографій її класу. Скільки всього в неї способів вибрати з них 3 фотографії зі своїм зображенням для персональної сторінки в соціальній мережі та 2 фотографії свого класу для сайт школи?",
+    "rightAnswer": "840",
+    "wrongAnswers": ["128", "144", "672"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якщо a/b = 2/7, то b/a = ",
+    "rightAnswer": "7/2",
+    "wrongAnswers": ["-7/2", "2/7", "-2/7"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Цукерки, що лежать у коробці, можна порівну поділити між двома або трьома дітьми, але не можна поділити порівну між чотирма дітьми. Якому з наведених значень може дорівнювати кількість цукерок в ній?",
+    "rightAnswer": "42",
+    "wrongAnswers": ["36", "48", "50"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якому проміжку належить корінь рівняння 2x - 3 = 4?",
+    "rightAnswer": "[3;4]",
+    "wrongAnswers": ["(1;2)", "(2;3]", "(4;7]"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть число, що є коренем рівняння -log2(x) = 3",
+    "rightAnswer": "1/8",
+    "wrongAnswers": ["-8", "9", "-1/9"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "cos(90° + x) / sin(x) = ",
+    "rightAnswer": "-1",
+    "wrongAnswers": ["1", "ctg(x)", "tg(x)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якщор x^2 - y^2 = 7 і 3x + 3y = 63, то x - y =",
+    "rightAnswer": "1/3",
+    "wrongAnswers": ["-3", "14", "147"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "У паралелограмі ABCD на стороні AD вибрано точку K. Діагональ AC і відрізок BK перетинаються в точці O. Визначте довжину сторони BC, якщо AK = 12см, OK = 2см, OB = 3см.",
+    "rightAnswer": "18 см",
+    "wrongAnswers": ["24 см", "16 см", "15 см"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якщо 2^a = 3, то 4^(a+1) = ",
+    "rightAnswer": "36",
+    "wrongAnswers": ["16", "18", "64"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть з-поміж наведених функцію f(x), якщо для кожного x з області її визначення виконується рівність f(-x) = -f(x).",
+    "rightAnswer": "f(x) = 2/x",
+    "wrongAnswers": ["f(x) = x^2", "f(x) = log3(x)", "f(x) = 2x + 5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Обчисліть об'єм правильної трикутної призми, бічні грані якої є квадратами, а площа основи дорівнює 9√3 см2",
+    "rightAnswer": "54√3 см2",
+    "wrongAnswers": ["27√3 см2", "27 см2", "162√3 см2"]
   }
 ]
