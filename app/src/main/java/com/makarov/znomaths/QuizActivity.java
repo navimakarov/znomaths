@@ -6,11 +6,17 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.MobileAdsInitProvider;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.Collections;
@@ -30,14 +36,14 @@ import android.widget.TextView;
 
 public class QuizActivity extends AppCompatActivity {
 
+    private final String RECORD_FILENAME = "record.txt";
     private String jsonFileString;
     private ProgressBar pb;
-    private TextView question_field, rightAnswersCount;
+    private TextView question_field, rightAnswersCount, record_field;
     private Button answer1, answer2, answer3, answer4;
     private ImageView heart1, heart2, heart3;
 
     private boolean questionAnswered;
-
     private String rightAnswer;
 
     private Game game;
@@ -88,6 +94,17 @@ public class QuizActivity extends AppCompatActivity {
         heart3 = (ImageView) findViewById(R.id.heart3);
 
         rightAnswersCount = (TextView) findViewById(R.id.rightAnswers);
+        record_field = (TextView) findViewById(R.id.record_field);
+        String record = "";
+        try {
+            record = readRecord();
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+        if(!record.equals("")) {
+            record_field.setText(record);
+        }
 
         jsonFileString = Utils.getJsonFromAssets(getApplicationContext(), "db.json");
         Gson gson = new Gson();
@@ -161,6 +178,23 @@ public class QuizActivity extends AppCompatActivity {
 
     public void update_game() {
         if(game.game_over()){
+            String current_record = readRecord();
+            if(current_record.equals("")){
+                writeRecord(String.valueOf(player.get_rightAnswersCount()));
+            }
+            else{
+                try {
+                    int record = Integer.parseInt(current_record);
+                    if(player.get_rightAnswersCount() > record){
+                        record = player.get_rightAnswersCount();
+                        writeRecord(String.valueOf(record));
+                    }
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                    writeRecord(String.valueOf(player.get_rightAnswersCount()));
+                }
+            }
             finish();
         }
         else {
@@ -187,4 +221,30 @@ public class QuizActivity extends AppCompatActivity {
 
         }
     }
+
+    public String readRecord() {
+        String file_content = "";
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(openFileInput(RECORD_FILENAME)));
+            file_content = br.readLine();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return file_content;
+    }
+
+    public void writeRecord(String record) {
+        try {
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(openFileOutput(RECORD_FILENAME, MODE_PRIVATE)));
+            bw.write(record);
+            bw.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

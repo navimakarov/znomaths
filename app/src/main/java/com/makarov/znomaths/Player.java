@@ -1,5 +1,6 @@
 package com.makarov.znomaths;
 
+
 public class Player {
     private int triesCount, record, rightAnswersCount;
 
@@ -23,5 +24,10 @@ public class Player {
     public int get_rightAnswersCount() {
         return rightAnswersCount;
     }
+
+    public void update_record() {
+
+    }
+
 
 }

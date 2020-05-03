@@ -23,15 +23,16 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/cup" />
+
             <TextView
+                android:id="@+id/record_field"
                 android:layout_width="50dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
-                android:text="@string/currentScore"
-                android:textSize="35sp"
-                android:textColor="#FFFFFF"
                 android:gravity="center"
-                />
+                android:text="@string/currentScore"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
         </LinearLayout>
 
         <TextView
