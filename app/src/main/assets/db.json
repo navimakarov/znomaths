@@ -704,7 +704,7 @@
   {
     "question": "Дріб 18/3",
     "rightAnswer": "Є скоротним",
-    "wrongAnswers": ["Є правильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"],
+    "wrongAnswers": ["Є правильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"]
   },
   {
     "question": "Дріб 19/3",
@@ -719,7 +719,12 @@
   {
     "question": "3 / 6",
     "rightAnswer": "Є скоротним",
-    "wrongAnswers": ["Є неправильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"],
+    "wrongAnswers": [
+      "Є неправильним",
+      "Чисельно дорівнює сумі 5 + 3",
+      "Чисельно дорівнює сумі 1 + 6"
+    ]
+  },
   {
     "question": "Дріб 256/1024",
     "rightAnswer": "Є скоротним",
@@ -771,253 +776,253 @@
     "wrongAnswers": ["Є скоротним", "Чисельно дорівнює сумі 0.3 + 0.44", "Чисельно дорівнює сумі 0.02 + 0.32"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Довжина прямокутної ділянки дорівнює 250м, а площа - 2 га. Знайдіть ширину ділянки",
+    "rightAnswer": "80 м",
+    "wrongAnswers": ["50 м", "8 м", "40 м"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть координату точки N, яка лежить на від'ємній піввісу y на відстані 2 одиничні відрізки від початку координат",
+    "rightAnswer": "(0;-2;0)",
+    "wrongAnswers": ["(-2;-2;0)", "(0;2;0)", "(0;0;0)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Тангенс гострого кута прямокутного трикутника дорівнює 1.5. чому дорівнює котангенс другог гострого кута цього трикутника?",
+    "rightAnswer": "3/2",
+    "wrongAnswers": ["1.25", "4/3", "1/4"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть вид трикутника, у якому сума двох інших кутів дорівнює третьому куту",
+    "rightAnswer": "Прямокутний трикутник",
+    "wrongAnswers": ["Тупокутний трикутник", "Рівносторонній трикутник", "Рівнобедрений гострокутний трикутник"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Бригада малярів за перший день роботи пофарбувала 200м2 стін, за другий 60м2, а за третій - 40м2. Скільки в середньому вони фарбували за день>",
+    "rightAnswer": "100 м2",
+    "wrongAnswers": ["80 м2", "300 м2", "60 м2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть проміжок якому належить найбільший цілий розв'язок нерівності (-2x + 3)/3 > -2",
+    "rightAnswer": "(3;5]",
+    "wrongAnswers": ["(0; 1/2)", "[1; 3]", "(-10; -4)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть log3(6), якщо log2(3) = x",
+    "rightAnswer": "x + 1",
+    "wrongAnswers": ["x - 1", "2x", "-x - 1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть значення похідної функції y = e, у точці x0 = 3",
+    "rightAnswer": "0",
+    "wrongAnswers": ["3", "e^3", "3e"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 256",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 144",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 169",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 256",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 225",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 400",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 256",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 324",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 100",
+    "rightAnswer": "Є дільником числа 1000",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 432", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число √16",
+    "rightAnswer": "Є точним квадратом",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1001", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 255",
+    "rightAnswer": "Є непарним",
+    "wrongAnswers": ["Є точним квадратом", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 185",
+    "rightAnswer": "Є непарним",
+    "wrongAnswers": ["Є точним квадратом", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 2347",
+    "rightAnswer": "Є непарним",
+    "wrongAnswers": ["Є точним квадратом", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 525",
+    "rightAnswer": "Є непарним",
+    "wrongAnswers": ["Є точним квадратом", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 256",
+    "rightAnswer": "Є парним",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число 256",
+    "rightAnswer": "Є парним",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Ірраціональне"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число √2",
+    "rightAnswer": "Ірраціональне",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Є точним квадратом"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число √3",
+    "rightAnswer": "Ірраціональне",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Є точним квадратом"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число √231",
+    "rightAnswer": "Ірраціональне",
+    "wrongAnswers": ["Є непарним", "Є дільником числа 1000", "Є точним квадратом"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Число √1",
+    "rightAnswer": "Є непарним",
+    "wrongAnswers": ["Є парним", "Ірраціональне", "Є точним квадратом"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Похідна від y = x^4 у тоцчі x0 = -1",
+    "rightAnswer": "-4",
+    "wrongAnswers": ["1/4", "2", "4"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Похідна від y = √x у тоцчі x0 = 4",
+    "rightAnswer": "1/4",
+    "wrongAnswers": ["-1", "2", "4"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Похідна від y = 2cos(x) у тоцчі x0 = pi/6",
+    "rightAnswer": "-1",
+    "wrongAnswers": ["2", "-4", "1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Похідна від y = tg(x) у тоцчі x0 = 0",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "-1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть зовнішній кут парвильного шестикутника",
+    "rightAnswer": "60°",
+    "wrongAnswers": ["90°", "45°", "150°"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Обчисліть sin(25°)^2 + cos(25°)^2 - 0.5sin(30°)",
+    "rightAnswer": "0.75",
+    "wrongAnswers": ["0.5", "0.25", "1.5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю геометричної прогресії, якщо b1 = 2; b2 = 5",
+    "rightAnswer": "2.5",
+    "wrongAnswers": ["3", "2", "5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю геометричної прогресії, якщо b1 = 2; b2 = 1",
+    "rightAnswer": "0.5",
+    "wrongAnswers": ["2", "1/5", "5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю геометричної прогресії, якщо b1 = 1; b2 = 27",
+    "rightAnswer": "27",
+    "wrongAnswers": ["1/27", "26", "1/26"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю геометричної прогресії, якщо b1 = 108; b2 = 18",
+    "rightAnswer": "6",
+    "wrongAnswers": ["2", "3", "8"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Ціна книжки виражається цілим числом гривень. Яким числом гривень може виражатися вартість 7 таких самих книжок?",
+    "rightAnswer": "350 грн",
+    "wrongAnswers": ["330 грн", "305 грн", "345 грн"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Ціна книжки виражається цілим числом гривень. Яким числом гривень може виражатися вартість 8 таких самих книжок?",
+    "rightAnswer": "336 грн",
+    "wrongAnswers": ["330 грн", "305 грн", "345 грн"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Ціна книжки виражається цілим числом гривень. Яким числом гривень може виражатися вартість 3 таких самих книжок?",
+    "rightAnswer": "330 грн",
+    "wrongAnswers": ["350 грн", "305 грн", "346 грн"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Ціна книжки виражається цілим числом гривень. Яким числом гривень може виражатися вартість 9 таких самих книжок?",
+    "rightAnswer": "360 грн",
+    "wrongAnswers": ["330 грн", "305 грн", "345 грн"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Ціна книжки виражається цілим числом гривень. Яким числом гривень може виражатися вартість 11 таких самих книжок?",
+    "rightAnswer": "121 грн",
+    "wrongAnswers": ["235 грн", "143 грн", "14 грн"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю арифметичної прогресії(an), якщо a31 = 28, a42 = 6",
+    "rightAnswer": "-2",
+    "wrongAnswers": ["6", "-3", "15"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть різницю арифметичної прогресії(an), якщо a43 = 14, a58 = 59",
+    "rightAnswer": "3",
+    "wrongAnswers": ["2", "-1", "4"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть скалярний добуток векторів a(0; 3) і b(4; 2)",
+    "rightAnswer": "6",
+    "wrongAnswers": ["2", "4", "7"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть скалярний добуток векторів a(-1; 2) і b(10; 5)",
+    "rightAnswer": "0",
+    "wrongAnswers": ["10", "-5", "2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть скалярний добуток векторів a(-1; 7; 4) і b(0; 8; 5)",
+    "rightAnswer": "76",
+    "wrongAnswers": ["56", "30", "42"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Знайдіть об'єм циліндра описаного навколо конуса з об'ємом 17",
+    "rightAnswer": "51",
+    "wrongAnswers": ["30", "34", "25"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Якою фігурою є розгортка бічної поверхні конуса",
+    "rightAnswer": "Сектор",
+    "wrongAnswers": ["Сегмент", "Трикутник", "Коло"]
   }
 ]
