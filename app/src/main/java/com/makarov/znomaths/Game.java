@@ -6,7 +6,7 @@ import java.util.List;
 public class Game {
     private List<Question> questions;
     private Player player;
-    private int index;
+    private int index  = -1;
     public Game(List<Question> questions, Player player) {
         this.questions = questions;
         this.player = player;
@@ -19,7 +19,8 @@ public class Game {
     }
 
     public String get_question() {
-        index = (int) ( Math.random() * questions.size());
+        //index = (int) ( Math.random() * questions.size());
+        index++;
         return questions.get(index).get_question();
     }
 

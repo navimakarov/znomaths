@@ -82,7 +82,19 @@ public class QuizActivity extends AppCompatActivity {
                 delay = 1000;
             } else {
                 view.setBackgroundResource(R.drawable.rounded_button_red);
-                player.decrease_triesCount();
+                if(answer1.getText().toString().equals(rightAnswer)){
+                    answer1.setBackgroundResource(R.drawable.rounded_button_green);
+                }
+                else if(answer2.getText().toString().equals(rightAnswer)){
+                    answer2.setBackgroundResource(R.drawable.rounded_button_green);
+                }
+                else if(answer3.getText().toString().equals(rightAnswer)){
+                    answer3.setBackgroundResource(R.drawable.rounded_button_green);
+                }
+                else if(answer4.getText().toString().equals(rightAnswer)){
+                    answer4.setBackgroundResource(R.drawable.rounded_button_green);
+                }
+                //player.decrease_triesCount();
                 delay = 5000;
 
                 switch(player.get_triesCount()){
@@ -97,13 +109,16 @@ public class QuizActivity extends AppCompatActivity {
                         break;
                 }
             }
-            start_animation(delay);
+            //start_animation(delay);
+            /*
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     update_game();
                 }
             }, delay + 300);
+             */
+            update_game();
         }
     }
 
