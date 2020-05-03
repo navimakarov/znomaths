@@ -522,254 +522,253 @@
     "wrongAnswers": ["27√3 см2", "27 см2", "162√3 см2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^2 - 3 = 0?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^4 + 3 = 0?",
+    "rightAnswer": "0",
+    "wrongAnswers": ["2", "1", "4"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^3 - x^2 = 0?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^10=-1?",
+    "rightAnswer": "0",
+    "wrongAnswers": ["2", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння |x| = 5?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^4 - 2x^2 + 1 = 0?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння √x = 3?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["0", "2", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння 3x - 10 = 0?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["0", "4", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння ∛x = -3?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["0", "2", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння |x| - 5 = 6?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння log2(x) = 0?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["0", "2", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння sin(x) = 1.3?",
+    "rightAnswer": "0",
+    "wrongAnswers": ["2", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння cos(x) = 1 на проміжку (-pi/2; pi/2)",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння 5x^3 - 5x^2 = 0?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння √x = |x|?",
+    "rightAnswer": "2",
+    "wrongAnswers": ["0", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння √x = x^(1/2)",
+    "rightAnswer": "Безліч",
+    "wrongAnswers": ["Жодного", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння 5x - 3 = 0 на проміжку [-1; 0]?",
+    "rightAnswer": "0",
+    "wrongAnswers": ["2", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння x^2 + x^4 = 0 на проміжку [0; 10]?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "0", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння √x = x^2 на проміжку [0; 1)",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "1", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Скільки коренів має рівняння (x^2 - 1) / (x - 1) = 0?",
+    "rightAnswer": "1",
+    "wrongAnswers": ["2", "0", "3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Центральний кут правильного многокутника дорівнює 72°. Укажіть число сторін цього многокутника.",
+    "rightAnswer": "5",
+    "wrongAnswers": ["3", "6", "7"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть правильно записану формулу",
+    "rightAnswer": "sin2x = 2*sin(x)*cos(x)",
+    "wrongAnswers": ["cos(pi/2 + a) = sin(a)", "sin(x)^2 + cos(x)^2 = 0", "sin(pi/2+a) = sin(a)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть неправильно записану формулу",
+    "rightAnswer": "cos(2x) = 2cos(x)^2 + 1",
+    "wrongAnswers": ["sin2x = 2*sin(x)*cos(x)", "sin(x)^2 + cos(x)^2 = 0", "-cos(pi/2 + a) = sin(a)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число -2 є розв'язком",
+    "rightAnswer": "x^2 - 9 < 0",
+    "wrongAnswers": ["2x > 0", "x^2 > 4", "x + 2 > 0"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 0 є розв'язком",
+    "rightAnswer": "√x > -3",
+    "wrongAnswers": ["x^2 + 1 > 1", "x^3 < 0", "x^2 -2x + 1 < 0"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 10 є розв'язком",
+    "rightAnswer": "x^2 - 3 > 0",
+    "wrongAnswers": ["2x > 20", "x^2 + 2x > 198", "√x > 100"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 5 є розв'язком",
+    "rightAnswer": "x^2 - 10x + 26 > 0",
+    "wrongAnswers": ["x^2 - 3 < 0", "2x + 5 < 3", "10x + 23 < 0"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 64 є розв'язком",
+    "rightAnswer": "√x - 8 < 1",
+    "wrongAnswers": ["2x + 3 < 5", "23x^2 - 3 < 0", "x^3 < -5"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число -3 є розв'язком",
+    "rightAnswer": "x^2 - 16 < 0",
+    "wrongAnswers": ["5x + 3 > -13", "|x| > 4", "log3(x) > 3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 1 є розв'язком",
+    "rightAnswer": "x  + 1 > 1",
+    "wrongAnswers": ["2x^2 > 5", "x ^ 3 < -10", "log2(x) > 2"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число -2 НЕ є розв'язком",
+    "rightAnswer": "log2(x) > -2",
+    "wrongAnswers": ["2x^2 > 3", "15x + 5 < 17", "log2(x+3) > -1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число -2 є розв'язком",
+    "rightAnswer": "log2(x+3) > -1",
+    "wrongAnswers": ["log2(x) > -2", "8x - 2 > 0", "3√x > 3"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 16 є розв'язком",
+    "rightAnswer": "2√x > 7",
+    "wrongAnswers": ["3x^3 - 1 < 0", "log4(x) > 2", "x^2 < 36"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 100 є розв'язком",
+    "rightAnswer": "log10(x) > 1",
+    "wrongAnswers": ["x^2 - 25 < 0", "√x > 10", "(1/x) > 1"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 0.5 є розв'язком",
+    "rightAnswer": "(1/x) > 1",
+    "wrongAnswers": ["log2(x) > 1", "x^2 - 1 > 3", "7√x > 10"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть нерівність для якої число 0 є розв'язком",
+    "rightAnswer": "x^2 + 2x - 1 < 2",
+    "wrongAnswers": ["√x > 3", "x^3 - 3 < -4", "25x^2 > 25"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 18/3",
+    "rightAnswer": "Є скоротним",
+    "wrongAnswers": ["Є правильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"],
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 19/3",
+    "rightAnswer": "Чисельно дорівнює сумі 6 + 1/3",
+    "wrongAnswers": ["Є правильним", "Є скоротним", "Чисельно дорівнює сумі 1 + 6"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 5/2",
+    "rightAnswer": "Чисельно дорівнює сумі 2 + 0.5",
+    "wrongAnswers": ["Є правильним", "Чисельно дорівнює сумі 5 + 3", "Є скоротним"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "3 / 6",
+    "rightAnswer": "Є скоротним",
+    "wrongAnswers": ["Є неправильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"],
+  {
+    "question": "Дріб 256/1024",
+    "rightAnswer": "Є скоротним",
+    "wrongAnswers": ["Є неправильним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 3/10",
+    "rightAnswer": "Є правильним",
+    "wrongAnswers": ["Є скоротним", "Чисельно дорівнює сумі 5 + 3", "Чисельно дорівнює сумі 1 + 6"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб (3/5 + 10/19)",
+    "rightAnswer": "Є неправильним",
+    "wrongAnswers": ["Є скоротним", "Чисельно дорівнює сумі 5 + 0.6", "Чисельно дорівнює сумі 8 + 6"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 3/100",
+    "rightAnswer": "Чисельно дорівнює 0.03",
+    "wrongAnswers": ["Є неправильним", "Є скоротним", "Чисельно дорівнює сумі 3 + 10"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть правильну формулу для обчислення площі будь-якого трикутника, якщо його сторони - a,b,c, радіус описаного кола - R",
+    "rightAnswer": "S = (a*b*c)/4R",
+    "wrongAnswers": ["S = a*b*c*2R", "S = 0.5*a*b*R", "S = 2a*b*R"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть правильну формулу для обчислення площі будь-якого трикутника, якщо його сторони - a,b, а кут між ними - L",
+    "rightAnswer": "S = 0.5*a*b*sin(L)",
+    "wrongAnswers": ["S = a*b*sin(L)", "S = a^2*b^2*cos(L)", "S = 2*a*b*cos(L)"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "У рівностороннього трикутника сторона дорівнює √3 см. Визначте радіус описаного кола навколо цього трикутника",
+    "rightAnswer": "1 см",
+    "wrongAnswers": ["2√3 см", "5√3 см", "√3(1 + 2) см"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Визначте діагональ квадрата, якщо його периметр = 4√2 см",
+    "rightAnswer": "2 см",
+    "wrongAnswers": ["2√2 см", "4√2 см", "4 см"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Укажіть формулу для обчислення площі трикутника, якщо його периметр дорівнює P, а радіус вписаного кола - r",
+    "rightAnswer": "S = 0.5*P*r",
+    "wrongAnswers": ["S = P*R", "S = 2P*R", "S = (1/4)P*R"]
   },
   {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
-  },
-  {
-    "question": "",
-    "rightAnswer": "",
-    "wrongAnswers": ["", "", ""]
+    "question": "Дріб 9/256",
+    "rightAnswer": "Є правильним",
+    "wrongAnswers": ["Є скоротним", "Чисельно дорівнює сумі 0.3 + 0.44", "Чисельно дорівнює сумі 0.02 + 0.32"]
   },
   {
     "question": "",
