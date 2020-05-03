@@ -94,31 +94,28 @@ public class QuizActivity extends AppCompatActivity {
                 else if(answer4.getText().toString().equals(rightAnswer)){
                     answer4.setBackgroundResource(R.drawable.rounded_button_green);
                 }
-                //player.decrease_triesCount();
+                player.decrease_triesCount();
                 delay = 5000;
 
                 switch(player.get_triesCount()){
                     case 2:
-                        heart3.setVisibility(View.INVISIBLE);
+                        heart3.setImageResource(R.drawable.heart_broken);
                         break;
                     case 1:
-                        heart2.setVisibility(View.INVISIBLE);
+                        heart2.setImageResource(R.drawable.heart_broken);
                         break;
                     case 0:
-                        heart1.setVisibility(View.INVISIBLE);
+                        heart1.setImageResource(R.drawable.heart_broken);
                         break;
                 }
             }
-            //start_animation(delay);
-            /*
+            start_animation(delay);
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     update_game();
                 }
             }, delay + 300);
-             */
-            update_game();
         }
     }
 
