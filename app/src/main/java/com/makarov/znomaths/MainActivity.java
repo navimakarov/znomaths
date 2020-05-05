@@ -3,6 +3,7 @@ package com.makarov.znomaths;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
@@ -12,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int height = Resources.getSystem().getDisplayMetrics().heightPixels;
+        if(height < 1300) {
+            getSupportActionBar().hide();
+        }
     }
 
     public void button_exit_onClick(View view){

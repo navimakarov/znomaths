@@ -40,7 +40,8 @@
             android:onClick="button_start_onClick"
             android:text="Почати"
             android:textSize="35sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/about_button"
@@ -53,6 +54,7 @@
             android:textSize="35sp"
             android:textStyle="bold"
             android:layout_marginBottom="7dp"
+            android:textAllCaps="false"
             />
 
         <Button
@@ -65,6 +67,7 @@
             android:text="Вийти"
             android:textSize="35sp"
             android:textStyle="bold"
+            android:textAllCaps="false"
             />
 
 

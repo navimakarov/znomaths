@@ -23,6 +23,7 @@ import java.util.Collections;
 import java.util.List;
 
 import android.animation.ObjectAnimator;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -55,6 +56,10 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        int height = Resources.getSystem().getDisplayMetrics().heightPixels;
+        if(height < 1300) {
+            getSupportActionBar().hide();
+        }
 
         adView = findViewById(R.id.adView);
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -129,7 +134,7 @@ public class QuizActivity extends AppCompatActivity {
                 view.setBackgroundResource(R.drawable.rounded_button_green);
                 player.increase_rightAnswersCount();
                 rightAnswersCount.setText(String.valueOf(player.get_rightAnswersCount()));
-                delay = 1000;
+                delay = 4000;
             } else {
                 view.setBackgroundResource(R.drawable.rounded_button_red);
                 if(answer1.getText().toString().equals(rightAnswer)){
