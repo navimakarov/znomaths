@@ -4,4 +4,6 @@
     <string name="release_date">Дата випуску:\n01.06.2020</string>
     <string name="version">Версія: 1.0.0</string>
     <string name="currentScore">0</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner">ca-app-pub-7806530099006640~7031482753</string>
 </resources>

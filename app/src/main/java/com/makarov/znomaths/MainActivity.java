@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
-        Toast t = Toast.makeText(this, String.valueOf(height), Toast.LENGTH_LONG);
-        t.show();
         super.onCreate(savedInstanceState);
 
         if(height <= 320) {

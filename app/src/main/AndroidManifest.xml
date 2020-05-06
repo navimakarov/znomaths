@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8134830650001832~1055061913"/>
+            android:value="@string/banner"/>
         <activity android:name=".QuizActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"></activity>
