@@ -6,16 +6,29 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         int height = Resources.getSystem().getDisplayMetrics().heightPixels;
         if(height < 1300) {
             getSupportActionBar().hide();
+        }
+
+        Toast t = Toast.makeText(this, String.valueOf(height), Toast.LENGTH_LONG);
+        t.show();
+        super.onCreate(savedInstanceState);
+
+        if(height <= 320) {
+            setContentView(R.layout.activity_main_height320);
+        }
+        else if(height <= 800){
+            setContentView(R.layout.activity_main_height800);
+        }
+        else {
+            setContentView(R.layout.activity_main);
         }
     }
 

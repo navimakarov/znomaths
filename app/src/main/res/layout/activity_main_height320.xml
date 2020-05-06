@@ -1,0 +1,74 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1E1B1B"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ЗНО\nМатематика"
+        android:textColor="#FFEB3B"
+        android:textSize="27sp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#71353030"
+        android:gravity="center"
+        android:text='"Математику вже за те любити варто, що вона розум до ладу приводить."\nМ.В.Ломоносов'
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/rounded_button_green"
+        android:gravity="center"
+        android:onClick="button_start_onClick"
+        android:text="Почати"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@drawable/rounded_button_yellow"
+        android:gravity="center"
+        android:onClick="button_about_onClick"
+        android:text="Про додаток"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="7dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@drawable/rounded_button_yellow"
+        android:gravity="center"
+        android:onClick="button_exit_onClick"
+        android:text="Вийти"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
