@@ -55,10 +55,19 @@ public class QuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
         int height = Resources.getSystem().getDisplayMetrics().heightPixels;
         if(height < 1300) {
             getSupportActionBar().hide();
+        }
+
+        if(height <= 320){
+            setContentView(R.layout.activity_quiz_height320);
+        }
+        else if(height <= 800){
+            setContentView(R.layout.activity_quiz_height800);
+        }
+        else{
+            setContentView(R.layout.activity_quiz);
         }
 
         adView = findViewById(R.id.adView);
